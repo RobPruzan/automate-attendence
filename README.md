@@ -1,5 +1,13 @@
 ## Automatic attendance
 
+Takes in a directory of images of student names, and csv grade blanks, and automatally matches student names to the grade blank row and gives them 10/10 (does not need to know the recitation section)
+
+in code what this does is:
+
+`process(student_name_images, all_csv_grade_blanks) -> filled in csv's`
+
+This uses gpt-4o image api for image recogonition
+
 ### Setup
 
 > Note! This will require buying/using openai credits for image detection
