@@ -1,0 +1,10 @@
+.env
+images/*
+!images/.gitkeep
+output_sheets/*
+!output_sheets/.gitkeep
+sheets/*
+!sheets/.gitkeep
+attendance_processing.log
+.venv
+__pycache__
